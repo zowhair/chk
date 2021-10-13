@@ -5,12 +5,15 @@ import Header from './Header'
 const Content = (props) => {
     // console.log("props in content: ",props)
     // let a = props.content.map(a => a.name)
-    // let a = props.content.map(ab => {
-    //     console.log(ab.name)
-    //     ab.parts.map(ba => {
-    //         console.log(ba)
-    //     })
-    // })
+     // I want my website to look like this  --> like on console
+    let a = props.content.map(ab => {
+        // these will be heading/bold
+        console.log(ab.name)
+        ab.parts.map(ba => {
+            //these will be just simple para/text
+            console.log(ba.name)
+        })
+    })
     let courseX = props
     // console.log(courseX)
     // const content = props
